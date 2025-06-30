@@ -15,7 +15,7 @@ export default function Home() {
       event_name: "TestEvent",
       event_time: Math.floor(Date.now() / 1000),
       action_source: "website",
-      event_source_url: "https://www.digitalpaisagismo.site",
+      event_source_url: "https://www.digitalpasiagismo.pro",
       user_data: {
         external_id: "dec28dba1ef8f7a974d0daa5fb417e886d608ff870dea037176fafd3ef931045",
         client_ip_address: "123.123.123.123",
@@ -56,7 +56,7 @@ export default function Home() {
 
   return (
     <div style={{ fontFamily: "sans-serif", padding: "40px", maxWidth: "800px", margin: "0 auto" }}>
-      <h2>🔍 Diagnóstico do Proxy CAPI</h2>
+      <h2>🔍 Diagnóstico do Proxy CAPI – digitalpasiagismo.pro</h2>
       <p><strong>Status:</strong> {status}</p>
       <p><strong>Horário:</strong> {timestamp}</p>
 
